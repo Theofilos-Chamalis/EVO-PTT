@@ -1,0 +1,15 @@
+EVO PTT — marketing / sample repository
+=======================================
+
+Copyright (c) Evolvium Solutions Ltd.
+
+This repository is published for product discovery, documentation, and evaluation.
+It includes an open-source sample of an earlier Android client foundation used in the
+history of EVO PTT. It is not the current production codebase.
+
+The current EVO PTT product (Android app, web dashboard, API, voice servers) is a
+commercial offering. Full source access, white-label rights, and self-hosting are
+available under the Enterprise License — see https://evoptt.com and README.md.
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+Third-party libraries under libraries/ retain their own license terms where applicable.
