@@ -1,124 +1,149 @@
-<h1 align="center">EVO PTT | Enterprise Push-to-Talk for Modern Businesses</h1>
+<h1 align="center">EVO PTT</h1>
+<p align="center"><b>Enterprise push-to-talk for field teams</b></p>
 
 <p align="center">
-  <a href="https://evoptt.com"><b>evoptt.com</b></a> ·
-  <a href="https://evoptt.com">Try the free demo</a> ·
-  <a href="mailto:info@evoptt.com">Request a private trial</a>
+  Encrypted voice · Live dispatch · GPS & SOS · Docker-isolated servers<br/>
+  Hosted from <b>€165/mo</b> · or own it forever for <b>€2,800</b> (full source)
 </p>
 
-![EVO PTT — The Evolution in PTT communication](https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/EVO-PTT-feature-graphic.png)
+<p align="center">
+  <a href="https://evoptt.com"><b>Website</b></a> ·
+  <a href="https://evoptt.com/login/manager"><b>Free public demo</b></a> ·
+  <a href="https://evoptt.com/#trust"><b>Private trial</b></a> ·
+  <a href="https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt"><b>Google Play</b></a>
+</p>
 
-EVO PTT is a complete, secure VoIP push-to-talk system for organisations that need
-reliable team communication in the field. It replaces analogue radios and consumer
-walkie-talkie apps with a private, encrypted, low-latency platform deployed on
-your infrastructure or hosted by us on AWS.
+<p align="center">
+  <a href="https://evoptt.com"><img alt="Website" src="https://img.shields.io/badge/website-evoptt.com-0B5FFF?style=flat-square"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-green?style=flat-square"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt"><img alt="Google Play" src="https://img.shields.io/badge/Google%20Play-5.0★-34A853?style=flat-square"></a>
+  <a href="https://evoptt.com/#pricingid"><img alt="Pricing" src="https://img.shields.io/badge/from-%E2%82%AC165%2Fmo-orange?style=flat-square"></a>
+</p>
 
-- 🔐 **Per-company Docker isolation** — Every customer runs in its own container.
-- 📡 **Ultra-low latency voice** with superior compression. — Works on 2G/EDGE/3G/4G/5G and WiFi.
-- 📍 **Real-time GPS tracking & SOS alerts** to dispatcher and teammates.
-- 🎙️ **Native hardware PTT button support** for F22, F22+, F25 and similar devices.
-- 🖥️ **Multi-platform** — Android end-user app + Web dashboard for managers.
-- 🏷️ **White-label & full source** available under the one-time Enterprise License.
+<p align="center">
+  <img src="githubResources/EVO-PTT-feature-graphic.png" alt="EVO PTT — enterprise push-to-talk" width="100%">
+</p>
+
+EVO PTT turns smartphones and the web into a professional walkie-talkie and dispatch
+system for security, logistics, field ops, and emergency services. It replaces analogue
+radios and consumer PTT apps with a private, encrypted, low-latency platform — hosted by
+us on AWS, or self-hosted under the Enterprise License.
+
+\* **About this repository:** this public tree is an **open-source sample of an earlier
+Android client foundation** used in the history of EVO PTT. It is here so evaluators can
+inspect architecture and heritage. The **current product** (Android app, web dashboard,
+API, voice servers) ships commercially — try the [live demo](https://evoptt.com/login/manager)
+or get **full source** with the [€2,800 Enterprise License](https://evoptt.com/#pricingid).
 
 ---
 
-## Who it's for
+## Why teams choose EVO PTT
 
-Security companies · Transportation & logistics · Field operations · Emergency services
-· Construction sites · Facility management · Event management.
+| Capability | What you get |
+|---|---|
+| **Live Dispatch Console** | See who is online, talking, and where; move / mute / remove users; manage channels remotely |
+| **SOS & automated alerts** | Instant SOS with one-tap ack; low-battery and stale-GPS warnings |
+| **Event audit trail** | Filterable history of voice, telemetry, and control events — CSV export in one click |
+| **Per-company Docker isolation** | Every customer runs in its own container with encrypted voice & data |
+| **Hardware PTT buttons** | Native support on rugged devices (Sonim, RugGear, Inrico, Hytera, Talkpod, F22/F22+/F25, and more) |
+| **Network-resilient voice** | Works across 2G/EDGE through 5G and Wi‑Fi; auto-reconnect; background / screen-off operation |
+| **No vendor lock-in path** | Buy the source, white-label, and self-host whenever you want |
 
-## What's in the box
+See the [data-consumption benchmark vs. competitors (PDF)](githubResources/EVO-PTT-Benchmark.pdf).
+
+---
+
+## What's in the product
 
 | Component | For whom | Purpose |
 |---|---|---|
-| **Android app** | Field workers / End users | Voice PTT, GPS, SOS, hardware PTT button |
-| **Web dashboard** | Company managers | Users, companies, live map, server status |
-| **REST API** | App & Dashboard communication | Secure data access |
-| **Voice server** | App & End user communication | Crystal-clear, low-latency audio |
+| **Android app** | Field workers | Voice PTT, GPS, SOS, hardware PTT button |
+| **Web dashboard** | Managers / dispatchers | Users, companies, live map, **Dispatch Console**, server status |
+| **REST API** | App & dashboard | Secure data access |
+| **Voice server** | End-user audio | Low-latency encrypted voice |
+
+Built by **[Evolvium Solutions Ltd](https://evolvium.evoptt.com/)**.
 
 ---
 
-## Try it now | Free public demo
+## Try it now
 
-No signup, no commitment. (Shared sandbox, please don't put sensitive data in it.)
+### Free public demo — no signup
 
+Shared sandbox (please do not enter sensitive data).
+
+- 🖥️ **Web Dispatch Console:** [Open the public demo](https://evoptt.com/login/manager)
 - 📱 **Android:** [Get it on Google Play](https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt) → tap **ENTER FREE PUBLIC DEMO**
-- 🖥️ **Web dashboard:** [evoptt.com](https://evoptt.com) → **Public Demo**
 
-> Want an isolated environment to evaluate with your real team?
-> [Request a **Private Trial**](mailto:info@evoptt.com?subject=EVO%20PTT%20Private%20Trial) — see pricing below.
+### Private trial — your own isolated company
+
+A dedicated environment on its own server (not the shared demo).
+
+- Minimum **1 month** · cost = **2×** the equivalent hosted rate  
+  *Example:* 22 users on Business (€330/mo) → **€660** for one month
+- **100% credited** toward the €2,800 Enterprise License if you proceed
+- Typical access within **2 business days**
+
+→ [Request a private trial](https://evoptt.com/#trust) · or email **info@evoptt.com**
 
 ---
 
 ## Pricing
 
-### 🛒 Hosted subscription | We host & operate, monthly billing, cancel anytime
+Aligned with [evoptt.com](https://evoptt.com/#pricingid).
 
-All hosted plans include: private hosted company server, web dashboard, real-time GPS
-& SOS, encrypted voice & data, per-company Docker isolation.
+### Hosted subscription — we operate it for you
 
-| Plan | Users | Price | Extras |
-|---|---|---|---|
-| **Team** | up to 10 | **€165 / month** | Standard email support, one-time setup assistance |
-| **Business** ⭐ *most popular* | up to 50 | **€330 / month** | Free installation, custom rebranding, priority email support |
-| **Scale** | up to 250 | **€510 / month** | Free installation & rebranding, dedicated onboarding, priority support (8×5) |
+Monthly billing · cancel anytime · one company per plan · as many manager accounts as you need.
 
-### 💎 Enterprise License | one-time fee, own it forever
+All hosted plans include: private company server, web dashboard, **live Dispatch Console**,
+real-time GPS & SOS, encrypted voice & data, per-company Docker isolation.
 
-**€2,800 one-time payment** with no recurring fees, no per-user costs, ever.
+| Plan | Users | Monthly | Yearly (bank transfer) | Extras |
+|---|---|---|---|---|
+| **Team** | up to 10 | **€165** | **€1,800**/yr (€150/mo) | Standard email support, one-time setup assistance |
+| **Business** ⭐ most popular | up to 50 | **€330** | **€3,600**/yr (€300/mo) | Free installation, custom rebranding, priority email support |
+| **Scale** | up to 250 | **€510** | **€5,400**/yr (€450/mo) | Free installation & rebranding, dedicated onboarding, priority support (8×5) |
 
-- Unlimited users
-- Full source code access (Android app + web + backend)
+Yearly prepaid saves up to **~12%** vs paying month-to-month.
+
+### Enterprise License — €2,800 one time
+
+Own it forever · no recurring fees · no per-user costs.
+
+- Unlimited users and teams
+- **Admin access:** run **multiple fully isolated companies**, each with its own voice server, managers, and data *(hosted plans cover one company)*
+- Full source code (Android + web + backend)
+- Complete technical documentation
 - Commercial license & white-label / rebranding rights
 - Self-host on your infrastructure or on-prem
-- Free installation, onboarding and initial support package included
+- Free installation, onboarding, and initial support package
 
-### 🧪 Private Trial
-
-A dedicated, isolated company on its own server — the exact environment you'd run
-in production (unlike the shared public demo).
-
-- **Cost:** 2× the equivalent hosted rate · **Minimum:** 1 month
-- *Example:* evaluating with 22 users (Business tier = €330/mo) → **€660 for one month**.
-- ✅ **100% credited toward the €2,800 Enterprise License** if you proceed, making the
-  trial effectively free for committed customers.
-
-📩 To request a private trial or discuss your deployment: **info@evoptt.com**
-
----
-
-## Why teams pick EVO PTT
-
-- **Superior voice compression** — See the [data-consumption benchmark vs. competitors](https://www.dropbox.com/s/39qpqhx88bqj5nl/EVO%20PTT%20Benchmark.pdf?dl=0).
-- **Hardware PTT button support** out of the box on F22 / F22+ / F25 devices.
-- **Per-company Docker isolation** — Strict tenant separation by design.
-- **Real-time location** on dispatcher map and teammate apps.
-- **Private deployment options** — Your premises, your cloud, or our AWS infrastructure.
-- **No vendor lock-in path** — Buy the source and rebrand if you ever want to.
-- **Network-resilient** — Auto-reconnect, network-type switching (Data ↔ WiFi without dropping), works on 2G/EDGE through 5G.
-- **Background & screen-off operation**, start-on-boot, auto-login — Built for the realities of fieldwork.
+→ [See pricing on the website](https://evoptt.com/#pricingid) · [Contact us about Enterprise](mailto:info@evoptt.com?subject=EVO%20PTT%20Enterprise%20License)
 
 ---
 
 ## Screenshots
 
 ### Android app
+
 <p>
-  <img src="https://play-lh.googleusercontent.com/Cslsv82yPZBkKXSQAGdtVgWt3A_bPlufh96eLG3GpEdDKFAXru0ouNvVuQ4IgMy89hoi=w720-h380-rw" alt="Login Screen">
-  <img src="https://play-lh.googleusercontent.com/DT87zUtjqABcRVc6QOhFyZGDQuahWbQ208wOytS7ZsIMjvkkISURclIHLrNCPVG3Qg=w720-h380-rw" alt="Server Screen">
-  <img src="https://play-lh.googleusercontent.com/5NeEB5Nhk3y6W-zaNyNHrC_RcNXQxr467ZjuX0jzajno5gXb0-g2UGXuiK9SunxkKJ0=w720-h380-rw" alt="Chat Screen">
-  <img src="https://play-lh.googleusercontent.com/gy2OL0GOau1zLrV7mMqNfJgz9dAv1KOTXNLF65VagdyFJe3uoOcjpz7fb5extm0LZ0E=w720-h380-rw" alt="Map View">
+  <img src="https://play-lh.googleusercontent.com/Cslsv82yPZBkKXSQAGdtVgWt3A_bPlufh96eLG3GpEdDKFAXru0ouNvVuQ4IgMy89hoi=w720-h380-rw" alt="Login" height="280">
+  <img src="https://play-lh.googleusercontent.com/DT87zUtjqABcRVc6QOhFyZGDQuahWbQ208wOytS7ZsIMjvkkISURclIHLrNCPVG3Qg=w720-h380-rw" alt="Server" height="280">
+  <img src="https://play-lh.googleusercontent.com/5NeEB5Nhk3y6W-zaNyNHrC_RcNXQxr467ZjuX0jzajno5gXb0-g2UGXuiK9SunxkKJ0=w720-h380-rw" alt="Channels" height="280">
+  <img src="https://play-lh.googleusercontent.com/gy2OL0GOau1zLrV7mMqNfJgz9dAv1KOTXNLF65VagdyFJe3uoOcjpz7fb5extm0LZ0E=w720-h380-rw" alt="Map" height="280">
 </p>
 
-### Web dashboard
+### Web dashboard & Dispatch Console
+
 <p>
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel1.png" width="400" alt="Login">
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel2.png" width="400" alt="Server status">
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel3.png" width="400" alt="Companies">
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel4.png" width="400" alt="Managers">
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel5.png" width="400" alt="Users">
-  <img src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/webpanel6.png" width="400" alt="User location">
+  <img src="githubResources/webpanel1.png" width="320" alt="Login">
+  <img src="githubResources/webpanel2.png" width="320" alt="Server status">
+  <img src="githubResources/webpanel5.png" width="320" alt="Users">
+  <img src="githubResources/webpanel6.png" width="320" alt="Live location">
 </p>
+
+> Prefer the live product? The [public demo](https://evoptt.com/login/manager) shows the current Dispatch Console.
 
 ---
 
@@ -129,22 +154,52 @@ in production (unlike the shared public demo).
     <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
   </a>
   &nbsp;
-  <img alt="Available on Samsung Galaxy Store" src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/samsung.png" height="45">
+  <img alt="Samsung Galaxy Store" src="githubResources/samsung.png" height="45">
   &nbsp;
-  <img alt="Explore it on Huawei AppGallery" src="https://github.com/Theofilos-Chamalis/QR-PTT-PushToTalk/blob/master/githubResources/huawei.png" height="45">
+  <img alt="Huawei AppGallery" src="githubResources/huawei.png" height="45">
 </p>
 
-Also available on **Samsung Galaxy Store** and **Huawei AppGallery**.
+Also on **Samsung Galaxy Store** and **Huawei AppGallery**.  
+Rated **5.0** on Google Play.
+
+---
+
+## FAQ (short)
+
+<details>
+<summary><b>Public demo vs private trial?</b></summary>
+
+The free demo is a shared sandbox. A private trial is a dedicated company on its own server so you can evaluate with your real team.
+</details>
+
+<details>
+<summary><b>Enterprise License vs hosted subscription?</b></summary>
+
+Enterprise is a one-time purchase with full source, white-label, self-hosting, and multi-company admin access. Hosted is monthly, operated by us, one company per plan.
+</details>
+
+<details>
+<summary><b>iPhone?</b></summary>
+
+The mobile app is Android-only today. The web dashboard (including Dispatch) works in any modern browser. iOS is on the roadmap.
+</details>
 
 ---
 
 ## Talk to us
 
-- 🌐 Website: **https://evoptt.com**
-- 📩 Sales & private trials: **info@evoptt.com**
-- 📄 Benchmark vs. competitors: [EVO PTT Benchmark (PDF)](https://www.dropbox.com/s/39qpqhx88bqj5nl/EVO%20PTT%20Benchmark.pdf?dl=0)
+| | |
+|---|---|
+| Website | [evoptt.com](https://evoptt.com) |
+| Company | [Evolvium Solutions](https://evolvium.evoptt.com/) |
+| Sales & trials | [info@evoptt.com](mailto:info@evoptt.com) |
+| Benchmark PDF | [EVO PTT Benchmark](githubResources/EVO-PTT-Benchmark.pdf) |
+| This repo | [github.com/Theofilos-Chamalis/EVO-PTT](https://github.com/Theofilos-Chamalis/EVO-PTT) |
 
-> EVO PTT is a commercial product. This repository showcases its features, screenshots
-> and documentation. Source code access is included with the Enterprise License.
+---
 
-<sub>Any communication through the public demo channel is shared and visible to other evaluators. Please don't use any sensitive information in it.</sub>
+<sup>*</sup> Sample code in this repository illustrates historical Android client foundations under the
+[Apache License 2.0](LICENSE). Production source, documentation, and commercial rights ship with the
+Enterprise License. See [NOTICE](NOTICE).
+
+<sub>Any communication through the public demo channel is shared and visible to other evaluators. Please don't use sensitive information there.</sub>
