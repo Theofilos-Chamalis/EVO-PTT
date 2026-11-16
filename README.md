@@ -16,7 +16,7 @@
 <p align="center">
   <a href="https://evoptt.com"><img alt="Website" src="https://img.shields.io/badge/website-evoptt.com-0B5FFF?style=flat-square"></a>
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache%202.0-green?style=flat-square"></a>
-  <a href="https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt"><img alt="Google Play" src="https://img.shields.io/badge/Google%20Play-5.0★-34A853?style=flat-square"></a>
+  <a href="https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt"><img alt="Google Play: rated 4+ by 51 users" src="https://img.shields.io/badge/Google%20Play-4%2B★%20by%2051%20users-34A853?style=flat-square"></a>
   <a href="https://evoptt.com/#pricingid"><img alt="Pricing" src="https://img.shields.io/badge/from-%E2%82%AC165%2Fmo-orange?style=flat-square"></a>
 </p>
 
@@ -160,7 +160,7 @@ Own it forever · no recurring fees · no per-user costs.
 </p>
 
 Also on **Samsung Galaxy Store** and **Huawei AppGallery**.  
-Rated **5.0** on Google Play.
+Rated **4+** by 51 users on Google Play.
 
 ---
 
