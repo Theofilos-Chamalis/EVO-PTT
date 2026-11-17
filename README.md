@@ -50,7 +50,7 @@ or get **full source** with the [€2,800 Enterprise License](https://evoptt.com
 | **Network-resilient voice** | Works across 2G/EDGE through 5G and Wi‑Fi; auto-reconnect; background / screen-off operation |
 | **No vendor lock-in path** | Buy the source, white-label, and self-host whenever you want; resell it with the Partner License |
 
-See the [data-consumption benchmark vs. competitors (PDF)](githubResources/EVO-PTT-Benchmark.pdf).
+How much data it uses (about 7 MB per hour of speech): see the [push-to-talk data usage guide](https://evoptt.com/guides/push-to-talk-data-usage).
 
 ---
 
@@ -192,7 +192,6 @@ The mobile app is Android-only today. The web dashboard (including Dispatch) wor
 | Website | [evoptt.com](https://evoptt.com) |
 | Company | [Evolvium Solutions](https://evolvium.evoptt.com/) |
 | Sales & trials | [info@evoptt.com](mailto:info@evoptt.com) |
-| Benchmark PDF | [EVO PTT Benchmark](githubResources/EVO-PTT-Benchmark.pdf) |
 | This repo | [github.com/Theofilos-Chamalis/EVO-PTT](https://github.com/Theofilos-Chamalis/EVO-PTT) |
 
 ---
