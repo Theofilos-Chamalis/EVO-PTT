@@ -127,10 +127,10 @@ No recurring fees · no per-user costs · unlimited users · multiple fully isol
 ### Android app
 
 <p>
-  <img src="https://play-lh.googleusercontent.com/Cslsv82yPZBkKXSQAGdtVgWt3A_bPlufh96eLG3GpEdDKFAXru0ouNvVuQ4IgMy89hoi=w720-h380-rw" alt="Login" height="280">
-  <img src="https://play-lh.googleusercontent.com/DT87zUtjqABcRVc6QOhFyZGDQuahWbQ208wOytS7ZsIMjvkkISURclIHLrNCPVG3Qg=w720-h380-rw" alt="Server" height="280">
-  <img src="https://play-lh.googleusercontent.com/5NeEB5Nhk3y6W-zaNyNHrC_RcNXQxr467ZjuX0jzajno5gXb0-g2UGXuiK9SunxkKJ0=w720-h380-rw" alt="Channels" height="280">
-  <img src="https://play-lh.googleusercontent.com/gy2OL0GOau1zLrV7mMqNfJgz9dAv1KOTXNLF65VagdyFJe3uoOcjpz7fb5extm0LZ0E=w720-h380-rw" alt="Map" height="280">
+  <img src="githubResources/app-push-to-talk.webp" alt="Push to talk for business teams" width="200">
+  <img src="githubResources/app-chat-media.webp" alt="Chat with photos and short videos" width="200">
+  <img src="githubResources/app-sos.webp" alt="One-press SOS with location" width="200">
+  <img src="githubResources/app-map.webp" alt="Live map with status chips" width="200">
 </p>
 
 ### Web dashboard & Dispatch Console
