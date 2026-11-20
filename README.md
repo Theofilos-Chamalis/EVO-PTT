@@ -29,6 +29,8 @@ system for security, logistics, field ops, and emergency services. It replaces a
 radios and consumer PTT apps with a private, encrypted, low-latency platform — hosted by
 us on AWS, or self-hosted under the Enterprise or Partner License.
 
+In daily field use since 2017: **150+ companies** on private servers, **12,000+ field users** connected.
+
 \* **About this repository:** this public tree is an **open-source sample of an earlier
 Android client foundation** used in the history of EVO PTT. It is here so evaluators can
 inspect architecture and heritage. The **current product** (Android app, web dashboard,
@@ -43,7 +45,9 @@ or get **full source** with the [€2,800 Enterprise License](https://evoptt.com
 | Capability | What you get |
 |---|---|
 | **Live Dispatch Console** | See who is online, talking, and where; move / mute / remove users; manage channels remotely |
-| **SOS & automated alerts** | Instant SOS with one-tap ack; low-battery and stale-GPS warnings |
+| **SOS & automated alerts** | One-press SOS with GPS position, acknowledged from the console; low-battery and stale-GPS warnings |
+| **Chat, photos & short videos** | Channel chat in the app, with photos and short videos shared next to voice |
+| **Voice recordings & media library** | Optional push-to-talk recordings plus every shared photo and video, replayed and downloaded from the browser (10-day retention by default) |
 | **Event audit trail** | Filterable history of voice, telemetry, and control events — CSV export in one click |
 | **Per-company Docker isolation** | Every customer runs in its own container with encrypted voice & data |
 | **Hardware PTT buttons** | Native support on rugged devices (Sonim, RugGear, Inrico, Hytera, Talkpod, F22/F22+/F25, and more) |
@@ -58,8 +62,8 @@ How much data it uses (about 7 MB per hour of speech): see the [push-to-talk dat
 
 | Component | For whom | Purpose |
 |---|---|---|
-| **Android app** | Field workers | Voice PTT, GPS, SOS, hardware PTT button |
-| **Web dashboard** | Managers / dispatchers | Users, companies, live map, **Dispatch Console**, server status |
+| **Android app** | Field workers | Voice PTT, chat with photos & videos, GPS, SOS, hardware PTT button |
+| **Web dashboard** | Managers / dispatchers | **Dispatch Console**, live map, media library & voice recordings, event history, users, server status |
 | **REST API** | App & dashboard | Secure data access |
 | **Voice server** | End-user audio | Low-latency encrypted voice |
 
@@ -136,10 +140,12 @@ No recurring fees · no per-user costs · unlimited users · multiple fully isol
 ### Web dashboard & Dispatch Console
 
 <p>
-  <img src="githubResources/webpanel1.png" width="320" alt="Login">
-  <img src="githubResources/webpanel2.png" width="320" alt="Server status">
-  <img src="githubResources/webpanel5.png" width="320" alt="Users">
-  <img src="githubResources/webpanel6.png" width="320" alt="Live location">
+  <a href="githubResources/web-dispatch-console.webp"><img src="githubResources/web-dispatch-console.webp" width="400" alt="Dispatch Console: live roster, who is talking, open SOS and live event feed"></a>
+  <a href="githubResources/web-live-map.webp"><img src="githubResources/web-live-map.webp" width="400" alt="Live map with live, recent, stale and offline users"></a>
+  <a href="githubResources/web-voice-recordings.webp"><img src="githubResources/web-voice-recordings.webp" width="400" alt="Media library: push-to-talk voice recordings"></a>
+  <a href="githubResources/web-media-photos.webp"><img src="githubResources/web-media-photos.webp" width="400" alt="Media library: photos shared from the field"></a>
+  <a href="githubResources/web-event-history.webp"><img src="githubResources/web-event-history.webp" width="400" alt="Event history with CSV export"></a>
+  <a href="githubResources/web-users.webp"><img src="githubResources/web-users.webp" width="400" alt="Mobile users with battery, app version and last detection"></a>
 </p>
 
 > Prefer the live product? The [public demo](https://evoptt.com/login/manager) shows the current Dispatch Console.
@@ -150,16 +156,15 @@ No recurring fees · no per-user costs · unlimited users · multiple fully isol
 
 <p>
   <a href="https://play.google.com/store/apps/details?id=com.theofilos.chamalis.evoptt">
-    <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png">
+    <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="80">
   </a>
-  &nbsp;
-  <img alt="Samsung Galaxy Store" src="githubResources/samsung.png" height="45">
-  &nbsp;
-  <img alt="Huawei AppGallery" src="githubResources/huawei.png" height="45">
 </p>
 
-Also on **Samsung Galaxy Store** and **Huawei AppGallery**.  
-Rated **4+** by 51 users on Google Play.
+Rated **4+** by 51 users on Google Play. Android 7.0 and newer.
+
+**No Google Play services?** On PoC radios, Huawei phones and other devices without them, install the APK
+from us: voice, chat, SOS and location all keep working, and only the in-app map tab is hidden.
+See [devices without Google Play](https://evoptt.com/devices/without-google-play).
 
 ---
 
